@@ -5,41 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rafael Lucena">
     <meta name="description" content="Sitio Web con el CV de Rafael Lucena">
-    <title>CV de Rafael Lucena4</title>
+    <title>CV de Rafael Lucena Martínez</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js" type="module"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
 
     <header>
-        <h1>Rafael Lucena prueba4 Nueva prueba</h1>
 
-        <nav>
+        <i class="fas fa-bars"></i>
+
+        <nav class="menu1">
             <ul>
-                <li><a href="#portada">Portada</a></li>
-                <li><a href="#quiensoy"></a>Quien Soy</li>
-                <li><a href="#estudios"></a>Estudios</li>
+                <li><a href="#portada" class="active">Portada</a></li>
+                <li><a href="#quiensoy">Quien Soy</a></li>
+                <li><a href="#estudios">Estudios</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#sobremi"></a>Sobre mí</li>
-                <li><a href="#contacto"></a>Contacto</li>
+                <li><a href="#sobremi" onclick="smooth()">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+
     </header>
 
-    <section class="home">
-        <header>
-            <h1>Portada</h1>
+ <!--<main>-->
+
+    <section id="home">
+        <header class="header-home">
+            <h1>Rafael Lucena Martínez</h1>
         </header>
+
+
         <article>
+            <div class="wrapper-content">
             <p>Desarrollador web</p>
+            </div>
         </article>
+
+
     </section>
 
 
-    <section class="quiensoy">
-        <header>
+    <section id="quiensoy">
+        <header class="header-quiensoy">
             <h1>Quien soy</h1>
         </header>
 
@@ -47,38 +59,137 @@
     </section>
 
 
-    <section class="estudios">
-        <header>
+    <section id="estudios">
+        <header class="header-estudios">
+            <div class="wrapper-content">
             <h1>Estudios</h1>
+            </div>
         </header>
 
-        <p> Mi pasión es ayudar a resolver problemas empresariales y aportar soluciones de negocio mediante la utilización de las tecnologías de la información más adecuadas a cada proyecto</p>
+        <article>
+            <ul>
+                <li>Bootcamp Desarrollo Web</li>
+                <br>
+                <ul>
+                    <li>KeepCoding • Actualidad</li>
+                </ul>
+                <br>
+                <br>
+
+                <li>Big Data & Machine Learning Bootcamp</li>
+                <br>
+                <ul>
+                    <li>KeepCoding • 2017</li>
+                </ul>
+                <br>
+                <br>
+                <li>Máster en Ecommerce y Marketing Digital</li>
+                <br>
+                <ul>
+                    <li>Escuela Ecommaster • 2016 - 2017</li>
+                </ul>
+                <br>
+                <br>
+                <li>Máster of Business Administration – MBA</li>
+                <br>
+                <ul>
+                    <li>Universidad Católica de Valencia 2012 – 2013</li>
+                </ul>
+                <br>
+                <br>
+                <li>Programa de Dirección Financiera</li>
+                <br>
+                <ul>
+                    <li>Fundación de Estudios Bursátiles y Financieros • 2009 - 2010 </li>
+                </ul>
+                <br>
+                <br>
+                <li>Ingeniero de Organización Industrial</li>
+                <br>
+                <ul>
+                    <li>Universidad Politécnica de Valencia • 2005 - 2007 </li>
+                </ul>
+                <br>
+                <br>
+                <li>Ingeniero Técnico de Telecomunicaciones Especialidad Telemática</li>
+                <br>
+                <ul>
+                    <li>Universidad Politécnica de Valencia • 2001 - 2005 </li>
+                </ul>
+                <br>
+                <br>
+            </ul>
+
+        </article>
+
     </section>
 
 
 
-    <section class="experiencia">
-        <header>
+    <section id="experiencia">
+        <header class="header-experiencia">
             <h1>Experiencia prueba</h1>
         </header>
 
-        <p> Mi pasión es ayudar a resolver problemas empresariales y aportar soluciones de negocio mediante la utilización de las tecnologías de la información más adecuadas a cada proyecto</p>
+        <article>
+            <ul>
+                <li>Human Resources Operation Manager • Recrufrance • Septiembre 2014 - Enero 2018</li>
+                <br>
+                <ul>
+                    <li>Encargado de reclutamiento de personal sanitario para trabajar en Francia</li>
+                    <li>Gestión de toda la documentación necesaria para la incorporación al mercado laboral del personal sanitario</li>
+                </ul>
+                <br>
+                <br>
+                <li>European Project Manager • Freelance • Octubre 2013 - Mayo 2014</li>
+                <br>
+                <ul>
+                    <li>Realización de memorias para obtener financiación de empresas</li>
+                </ul>
+                <br>
+                <br>
+                <li>Director • Global Web Talent • Diciembre 2013 - Actualidad</li>
+                <br>
+                <ul>
+                    <li>Desarrollo de páginas web para distintos sectores</li>
+                </ul>
+                <br>
+                <br>
+                <li>Director de Área De Financiación y Ayudas Públicas • Altair Consultores • Septiembre 2008 - Octubre 2013</li>
+                <br>
+                <ul>
+                    <li>Realización de planes de negocio para distintos tipos de sectores</li>
+                    <li>Acciones comerciales de los servicios del departamento</li>
+                    <li>Realización y cumplimiento del presupuesto económico</li>
+                    <li>Gestión y dirección del equipo humano para la consecución de los objetivos</li>
+                </ul>
+                <br>
+                <br>
+            </ul>
+
+        </article>
+
+
     </section>
 
 
 
-    <section class="sobremi">
-        <header>
+    <section id="sobremi">
+        <header class="header-sobremi">
             <h1>Sobre mí</h1>
         </header>
 
         <p> Mi pasión es ayudar a resolver problemas empresariales y aportar soluciones de negocio mediante la utilización de las tecnologías de la información más adecuadas a cada proyecto</p>
+
+        <video controls width="250">
+
+            <source src="assets/video2.mp4">
+        </video>
     </section>
 
 
-
-    <section class="contacto">
-        <header>
+    <section id="contacto">
+        <header class="header-contacto">
             <h1>Contáctame</h1>
         </header>
         <p>Enviame tus datos de contacto para que podamos colaborar</p>
@@ -96,7 +207,11 @@
 
                 <li>
                     <label for="seleccion">Cómo me has conocido?</label>
-                    <input type="text" name="name" id="seleccion">
+                    <select name="seleccion" id="seleccion" required>
+                        <option value="op1">Linkedin</option>
+                        <option value="op2">Infojobs</option>
+                        <option value="op3">Otros</option>
+                    </select>
                 </li>
 
                 <li>
@@ -105,16 +220,18 @@
                 </li>
 
                 <li>
-                    <label for="textarea">Nombre</label>
-                    <input type="text" name="name" id="textarea" placeholder="Nombre" required>
+                    <label for="textarea">Mensaje limitado a 150 palabras</label>
+                    <textarea name="ta" id="textarea" cols="30" rows="10" onkeypress="return contador(this,10)"></textarea>
+
                 </li>
 
             </ul>
 
+            <button class="boton" type="submit" id="send">Enviar</button>
+
         </form>
     </section>
-
-
+ <!--</main>-->
 
 
 

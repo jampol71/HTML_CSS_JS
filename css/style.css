@@ -1,0 +1,195 @@
+:root {
+    --color-texto: black;
+    --color-fondo: white;
+    --color-aux: gray;
+}
+
+
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+body {
+
+
+    font-family: 'Lora', serif;
+
+}
+
+
+
+
+header {
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+body>header>nav {
+
+    position: fixed;
+    z-index:2;
+    top: 2rem;
+    left:1rem;
+    right: 5rem;
+
+
+}
+
+
+
+
+section>header>h1{
+
+
+    font-size: 5rem;
+}
+
+
+
+
+header {
+
+    color: white;
+    background-color: gray;
+
+}
+
+
+
+
+
+/*Resetear*/
+nav ul {
+
+    list-style:none;
+}
+
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.active {
+
+    color: goldenrod;
+    font-size: 1rem;
+
+}
+
+
+
+section header {
+
+    height: 100vh;
+
+}
+
+
+
+.header-home {
+
+    background-image: url('../assets/bg-1.jpg');
+}
+
+
+
+
+.header-quiensoy
+
+
+
+.header-estudios
+
+
+.header-experiencia
+
+
+.header-sobremi
+
+
+.header-contacto
+
+
+
+.wrapper-home {
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* animacion sobre el menu*/
+
+
+@keyframes menu {
+
+    0% {
+
+    background: #f00;
+    font-size: 2rem;
+
+    }
+
+    50% {
+
+    background: #ffd630;
+        font-size: 4rem;
+
+}
+
+}
+
+
+.menu1>ul>li>a:hover {
+    animation-name: menu;
+    animation-duration: 2s;
+}
+
+
+
+
+
+/* media queries */
+
+
+@media screen and (max-width: 992px) {
+
+    section>header>h1 {
+
+    background-color: blue;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    section>header>h1 {
+
+        background: olive;
+    }
+}
+
+
+
+
+
