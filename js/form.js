@@ -8,10 +8,12 @@ export function setForm() {
 
 
     let form = document.querySelector('#contacto')
-    let oContact = {}
+    let oContact = {};
+    console.log("HOla")
     form.addEventListener('submit',enviar)
 
     function enviar(){
+        console.log("Hola2")
         console.dir(oEv)
         oEv.preventDefault()
         oContact.name = document.querySelector('#name').value

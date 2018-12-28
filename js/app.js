@@ -15,6 +15,7 @@ function app() {
 }
 
 
+/* funcion para limitar a 150 palabras */
 
 function contador(flobj, max) {
 
@@ -34,9 +35,17 @@ function contador(flobj, max) {
     window.status = "Has introducido" + len + "palabras"
     if (len>max){
         alert("No se pueden introducir más palabras")
+
     }
 }
 
+
+
+
+function hola() {
+
+    alert("Hola Mundo")
+}
 
 
 

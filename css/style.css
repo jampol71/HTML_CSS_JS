@@ -40,16 +40,24 @@ header {
 body>header>nav {
 
     position: fixed;
-    z-index:2;
-    top: 2rem;
-    left:1rem;
-    right: 5rem;
+    top: 0rem;
+    left:0rem;
+    background: black;
+    height: 100vh;
+    width: 200px;
 
 
 }
 
 
 
+.wrapper-prueba {
+
+    margin-left: 200px;
+
+
+
+}
 
 section>header>h1{
 
@@ -71,7 +79,7 @@ header {
 
 
 
-/*Resetear*/
+/*Resetear menu*/
 nav ul {
 
     list-style:none;

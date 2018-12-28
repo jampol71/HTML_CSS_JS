@@ -7,6 +7,7 @@
     <meta name="description" content="Sitio Web con el CV de Rafael Lucena">
     <title>CV de Rafael Lucena Martínez</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js" type="module"></script>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
@@ -33,16 +34,21 @@
     </header>
 
  <!--<main>-->
+    <div class="wrapper-prueba">
+
+    <main>
 
     <section id="home">
+
         <header class="header-home">
             <h1>Rafael Lucena Martínez</h1>
+            <p>Desarrollador web</p>
         </header>
 
 
         <article>
             <div class="wrapper-content">
-            <p>Desarrollador web</p>
+
             </div>
         </article>
 
@@ -188,12 +194,12 @@
     </section>
 
 
-    <section id="contacto">
+    <section id="contacto-section">
         <header class="header-contacto">
             <h1>Contáctame</h1>
         </header>
         <p>Enviame tus datos de contacto para que podamos colaborar</p>
-        <form action="" class="contacto">
+        <form action="" id="contacto">
             <ul>
                 <li>
                     <label for="name">Nombre</label>
@@ -221,7 +227,7 @@
 
                 <li>
                     <label for="textarea">Mensaje limitado a 150 palabras</label>
-                    <textarea name="ta" id="textarea" cols="30" rows="10" onkeypress="return contador(this,10)"></textarea>
+                    <textarea name="ta" id="textarea" cols="30" rows="10"></textarea>
 
                 </li>
 
@@ -231,11 +237,17 @@
 
         </form>
     </section>
+
+
  <!--</main>-->
 
+    </main>
 
-
-
+    </div>
 
 </body>
+<footer>
+    copyrigth
+</footer>
+
 </html>
