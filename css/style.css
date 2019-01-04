@@ -1,8 +1,8 @@
-
 :root {
     --color-texto: black;
     --color-fondo: white;
     --color-aux: gray;
+    --color: rgb(69,131,232)
 }
 
 * {
@@ -24,6 +24,8 @@ header {
 
     color: white;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 body > header > nav {
@@ -33,29 +35,127 @@ body > header > nav {
     left: 0rem;
     background: black;
     height: 100vh;
-    width: 200px;
+    width: 100px;
+    margin-top: 16px;
 
 }
 
-.wrapper-prueba {
 
-    margin-left: 200px;
+p {
+
+    padding: 0.5rem;
+}
+
+
+
+video {
+
+    margin: 1rem 0.2rem;
+    width: 100%;
+    height: 50vh;
+}
+
+
+.foto {
+
+    width: 100%;
+}
+
+
+.wrapper-home header {
+
+    text-align: center;
 
 }
 
 section > header > h1 {
 
-    font-size: 5rem;
+    font-size: 2rem;
+    background: blue;
+    opacity: 0.5;
 }
 
+/*
 header {
 
     color: white;
     background-color: gray;
 
 }
+*/
+
 
 /*Resetear menu*/
+
+
+
+nav, h1, h2 {
+
+    font-family: 'Lora', serif;
+}
+
+
+
+/* menú principal*/
+
+h1 {
+
+    padding-top: 0.5rem;
+
+}
+
+nav a.hide {
+
+    display: none;
+}
+
+
+.navegacion {
+
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+
+}
+
+
+.boton-menu {
+
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    color: black;
+    background-color: rgb(69,131,232);
+    padding: 0.5rem;
+}
+
+
+.boton-menu a {
+
+    float: right;
+}
+
+.desplegable {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: rgb(69, 131, 232);
+    opacity: 0.75;
+    height: 20rem;
+    /*revisar*/
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+nav.mobile {
+
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
 nav ul {
 
     list-style: none;
@@ -73,11 +173,15 @@ nav a {
 
 }
 
+/*
 section header {
 
     height: 100vh;
 
 }
+*/
+
+
 
 .header-home {
 
@@ -120,7 +224,14 @@ section header {
     animation-duration: 2s;
 }
 
+
+
+/*media queries*/
+
+
+
 @media screen and (min-width: 480px) {
+
 
 
     body {
@@ -130,9 +241,13 @@ section header {
     }
 
 
+
+
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (min-width: 768px) {
 
     section > header > h1 {
 
@@ -143,7 +258,7 @@ section header {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
     section > header > h1 {
 

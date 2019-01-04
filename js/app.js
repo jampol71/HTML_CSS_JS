@@ -8,20 +8,13 @@ import { setMenu } from '/js/menu.js'
 import { setForm } from '/js/form.js'
 
 
-function app() {
-    setMenu()
-    setForm()
 
-}
+function contador(obj) {
 
-
-/* funcion para limitar a 150 palabras */
-
-function contador(flobj, max) {
-
+    var max = 10
     var count = 0
     var len = 0
-    var formcontent=flobj.value //coge el texto del textarea
+    var formcontent=obj.value //coge el texto del textarea
     formcontent = formcontent.split("") //separa las palabras en un array
     for (i=0; i<formcontent.length; i++){
 
@@ -40,6 +33,14 @@ function contador(flobj, max) {
 }
 
 
+
+
+
+function app() {
+    setMenu()
+    setForm()
+
+}
 
 
 function hola() {

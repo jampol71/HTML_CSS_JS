@@ -12,13 +12,13 @@ export function setForm() {
     console.log("HOla")
     form.addEventListener('submit',enviar)
 
-    function enviar(){
-        console.log("Hola2")
+    function enviar(oEv){
+        console.log("Enviando datos")
         console.dir(oEv)
         oEv.preventDefault()
         oContact.name = document.querySelector('#name').value
         oContact.email = document.querySelector('#email').value
-        oContact.phone = document.querySelector('#selecion').value
+        oContact.phone = document.querySelector('#seleccion').value
         oContact.message = document.querySelector('#numero').value
         oContact.condiciones = document.querySelector('#textarea').checked
 
